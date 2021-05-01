@@ -10,10 +10,10 @@ namespace Labirint
     {
         static void Main(string[] args)
         {
-            //using (var glw = new GLWindow())
-            //{
-            //    glw.Run(60,60);
-            //}
+            using (var glw = new GLWindow())
+            {
+                glw.Run(60, 60);
+            }
         }
     }
 }
